@@ -51,7 +51,8 @@ public class Main {
 			VideoApprofondimento v4 = new VideoApprofondimento(nome_evento, data_evento, Sport.CALCIO);
 		
 			v4.addGiornalista(new Giornalista("TIZIO", "CAIO"));
-			v4.addGiornalista(new Giornalista("ALBERTO", "PLUTO"));
+
+			v4.addGiornalista(new Giornalista("ALBERTO", "MODIFICA REMOTA"));
 			
 			nome_evento = "Partita Udinese-Napoli";
 			
